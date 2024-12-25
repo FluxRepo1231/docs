@@ -1,0 +1,11 @@
+:root {
+    --md-primary-fg-color: #110d0d;
+    --md-accent-bg-color: #000000;
+    --main-bg-color: brown;
+  }
+  
+  .md-footer__button--prev,
+  .md-footer__button--next {
+    display: none;
+  }
+  
