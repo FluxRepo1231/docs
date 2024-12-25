@@ -1,0 +1,67 @@
+site_name: FlareByte Docs
+site_url: https://docs.flarebyte.xyz
+theme:
+  navigation:
+    prev: false
+    next: false
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+  custom_dir: overrides
+  favicon: images/Logo.png
+  logo: images/Logo.png
+  name: material
+  palette:
+    primary: black
+    accent : green
+    scheme: slate
+extra_css:
+  - stylesheets/extra.css
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/fCuvfbazmj
+      name: FlareByte Discord
+  homepage: https://i.imgur.com/IlTEPaF.png 
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.    
+          actions:
+      - accept
+      - manage
+copyright: Copyright &copy; 2024 - FlareByte Official
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+nav:
+  - Home:
+    - Home/Welcome.md
+    - Home/Discord.md
+    - Home/Terms of Service.md
+    - Home/privacy policy.md
+  - Getting Started:
+    - Making a Account.md
+    - Purchasing a Server.md
+    - Server Configuration.md
+    - Creating Databases.md
+    - Creating Schedules.md
+    - Adding Users.md
+    - Creating Backups.md
+    - Connecting SFTP.md
+  
